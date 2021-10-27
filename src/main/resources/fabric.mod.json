@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "playerlogger",
+  "version": "${version}",
+  "name": "PlayerLogger",
+  "description": "Logs all player usernames and skins",
+  "authors": [
+    "Allink"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.allink.playerlogger.client.PlayerLoggerClient"
+    ],
+    "main": [
+      "me.allink.playerlogger.PlayerLogger"
+    ]
+  },
+  "mixins": [
+    "playerlogger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.3",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.allink.playerlogger.client.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ClientPlayMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
