@@ -8,7 +8,7 @@
     "Allink"
   ],
   "contact": {},
-  "license": "MIT",
+  "license": "BSD 3-Clause \"New\" or \"Revised\" License",
   "environment": "client",
   "entrypoints": {
     "client": [
